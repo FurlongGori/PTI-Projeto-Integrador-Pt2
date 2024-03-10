@@ -1,5 +1,4 @@
 <?php
-
 include("./config/database.php");
 
 // if(isset($_POST['email'])){
@@ -22,9 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: index.php");
 }
         }
-    }   
-
-
+    }
 ?>
 
 <!DOCTYPE html>
@@ -34,29 +31,51 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Usuarios</title>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style_cad_usuario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">    
 </head>
 
 <body>
-    <h1>
-        Cadastro de Usuarios
-    </h1>
-    <form action="" method="post">
-        <p>
-            <label>Nome</label>
-            <input type="text" name="nome">
-        </p>
-        <p>
-            <label>E-mail</label>
-            <input type="text" name="email">
-        </p>
-        <p>
-            <label>Senha</label>
-            <input name="senha" type="password">
-        </p>
+<section>
+<div class="container">
 
-        <button type="submit">Cadastrar</button>
+<div class="cabecalho">
+    <img src="../img/menu.png" class="menu">
+    <img src="../img/logo.png" class="logo">
+    <img src="../img/sair.png" class="sair">
+</div>
+
+<div class="cadastro">
+    <div><h2>Cadastro Usuário</h2></div>
+    <!-- <br><br><br><br> -->
+
+    <form action="" method="POST">
+        <p>
+            <label>Nome:</label><br>
+            <input type="text" placeholder="nome" name="nome">
+        </p>
+        <p>
+            <label>E-mail:</label><br>
+            <input type="text" placeholder="seu email" name="email">
+        </p>
+        <p>
+            <label>Senha:</label><br>
+            <input type="password" placeholder="senha" name="senha" >
+        </p>
+    </div>
+
+    <div class="botao">
+        <button type="submit">Salvar</button>
+    </div>
+
     </form>
 
+</div>
+</section>
 </body>
 
 </html>

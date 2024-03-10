@@ -38,7 +38,6 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -46,29 +45,37 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PTI</title>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style_index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">    
 </head>
 
 <body>
-    <h1>Tela de Logon</h1>
+<section>
+<div class="container">
+
+<div class="logo">
+    <img src="../img/logo.png">
+</div>
+
+<div class="login">
     <form action="" method="POST">
-        <p>
-            <label>E-mail</label>
-            <input name="email" type="text">
-        </p>
-        <p>
-            <label>Senha</label>
-            <input name="senha" type="password">
-        </p>
-        <p>
-            <button type="submit">Entrar</button>
-        </p>
-
-        <p>
-        <p>Não tenho cadastro</p>
-        <button type="submit"><a href="cad_usuario.php">Cadastrar</a></button>
-        </p>
+        <p><input name="email" type="text" placeholder="Seu Email"></p>
+        <p><input name="senha" type="password" placeholder="Senha"></p>
+        <br>
+        <p><button type="submit">Login</button></p>
     </form>
+</div>
 
+<div class="rodape">
+    <p><a href="cad_usuario.php" class="underline">Não tenho conta. Clique para cadastrar.</a></p>
+</div>
+
+</div>
+</section>
 </body>
 
 </html>
