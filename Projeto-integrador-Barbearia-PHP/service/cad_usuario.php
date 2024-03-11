@@ -1,5 +1,5 @@
 <?php
-include("./config/database.php");
+include("../config/database.php");
 
 // if(isset($_POST['email'])){
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

@@ -1,5 +1,5 @@
 <?php
-include('./domain/protect.php');
+include('../domain/protect.php');
 
 ?>
 
@@ -16,7 +16,7 @@ include('./domain/protect.php');
     Bem vindo ao Projeto Integrador do Grupo 26 , <?php echo $_SESSION['nome']; ?>
 
     <p>
-        <a href="./domain/login.php">Sair</a>
+        <a href="../domain/login.php">Sair</a>
     </p>
 </body>
 
