@@ -1,5 +1,6 @@
 -- Nome Para o Banco de Dados será db-pti-agenda
-create database db_PTI_agenda;
+-- create database db_PTI_agenda;
+-- DROP table endereco;
 use db_PTI_agenda;
 
 create table usuarios(
@@ -30,8 +31,6 @@ complemento varchar(20) not null,
 bairro varchar(50) not null,
 cep varchar(10) not null
 )engine Innodb;
-
-DROP table endereco;
 
 create table agenda(
 idagenda int auto_increment primary key,
