@@ -19,16 +19,18 @@
 
 2* Com o control panel aberto, clique em start nas opções apache e MySQL. 
 
-3* Clique em Admin na mesma linha do MySQL, isso irá abrir uma pagina da web, para realizar a criação e configuração de banco de dados. 
+3* Clique em Admin na mesma linha do MySQL, isso irá abrir uma pagina da web, para executar o projeto é preciso realizar a criação e configuração do banco de dados.
 
-4* Crie um banco de dados e usuario para testes (pode ser com o mesmo nome ou diferente do banco de dados atual). 
+4* Criar um banco de dados com nome de (db_PTI_agenda) esse nome ja esta configurado nos script do banco ou (pode criar com nome diferente do banco de dados atual desna quer altera o script para poder conectar o banco).
 
-5* Baixe a Pasta Projeto-integrador-Barbearia-PHP.
+5* Baixe a Pasta Projeto-integrador-Barbearia-PHP, Extrair a pasta copia e colar a pasta dentro do XAMPP na pasta HTDOCS.
 
-6* Com o banco de dados criado, abra a opção SQL (web) e cole todo o codigo SQL que está no arquivo dentro da pasta DB (dentro da Pasta: Projeto-integrador-Barbearia-PHP) 
+6* Com o banco de dados criado, Importar o banco de dados baixado ou executar o código na opção SQL (web) cole todo o código SQL que está no arquivo dentro da pasta DB (dentro da Pasta: Projeto-integrador-Barbearia-PHP)
 
-7* Abra a pasta do Xampp no disco local instalado. 
+7* Abra o navegador execute (http://localhost/Projeto-integrador-Barbearia-PHP/service/index.php)
 
-8* Entre na pasta “htdocs” e cole todo o conteúdo da pasta do projeto lá dentro. 
+8* Abrindo a tela de login no roda pé acesse como não tenho conta. Clique para cadastrar, faca o cadastro e em seguida logo com usuario.
 
-9* Digite “localhost” no navegador. 
+9* Cadastrando com E-mail incorreto sera dado mensagem de erro.
+
+10* Acesse o Banco de Dados e verifique o usuario criado.
