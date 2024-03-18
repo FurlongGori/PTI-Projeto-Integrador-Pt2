@@ -19,16 +19,16 @@
 
 2* Com o control panel aberto, clique em start nas opções apache e MySQL. 
 
-3* Clique em Admin na mesma linha do MySQL. 
+3* Clique em Admin na mesma linha do MySQL, isso irá abrir uma pagina da web, para realizar a criação e configuração de banco de dados. 
 
-4* Com o (localhost/phpmyadmin/) aberto, crie um banco de dados e usuario para testes (pode ser com o mesmo nome ou diferente do banco de dados atual). 
+4* Crie um banco de dados e usuario para testes (pode ser com o mesmo nome ou diferente do banco de dados atual). 
 
-5* Baixe a Pasta Projeto-integrador-Barbearia-PHP 
+5* Baixe a Pasta Projeto-integrador-Barbearia-PHP.
 
 6* Com o banco de dados criado, abra a opção SQL (web) e cole todo o codigo SQL que está no arquivo dentro da pasta DB (dentro da Pasta: Projeto-integrador-Barbearia-PHP) 
 
-7* Abra a pasta do Xampp no disco instalado. 
+7* Abra a pasta do Xampp no disco local instalado. 
 
-8* Entre na pasta “htdocs” e cole todo o conteúdo da pasta do projeto la dentro. 
+8* Entre na pasta “htdocs” e cole todo o conteúdo da pasta do projeto lá dentro. 
 
 9* Digite “localhost” no navegador. 
