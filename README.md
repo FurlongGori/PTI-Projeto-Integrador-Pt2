@@ -31,6 +31,10 @@
 
 8* Abrindo a tela de login no roda pé acesse como não tenho conta. Clique para cadastrar, faca o cadastro e em seguida logo com usuario.
 
-9* Cadastrando com E-mail incorreto sera dado mensagem de erro.
+9* Cadastrando com e-mail incorreto será dado mensagem de erro.
 
 10* Acesse o Banco de Dados e verifique o usuario criado.
+
+# Vídeo Demonstrativo
+
+https://github.com/FurlongGori/PTI-Projeto-Integrador-Pt2/assets/144719605/3f9b2a90-abc3-4d55-be5c-1403668bcb06
