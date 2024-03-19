@@ -23,7 +23,7 @@
 
 4* Criar um banco de dados com nome de (db_PTI_agenda) esse nome ja esta configurado nos script do banco ou (pode criar com nome diferente do banco de dados atual desna quer altera o script para poder conectar o banco).
 
-5* Baixe a Pasta Projeto-integrador-Barbearia-PHP, Extrair a pasta copia e colar a pasta dentro do XAMPP na pasta HTDOCS.
+5* Fazer Download do projeto, Extrair a pasta copia somente a pasta (Projeto-integrador-Barbearia-PHP) e colar na pasta do XAMPP dentro da pasta HTDOCS.
 
 6* Com o banco de dados criado, Importar o banco de dados baixado ou executar o código na opção SQL (web) cole todo o código SQL que está no arquivo dentro da pasta DB (dentro da Pasta: Projeto-integrador-Barbearia-PHP)
 
